@@ -5,6 +5,10 @@
 # Note: VisualStudio gitignore rules may also be relevant
 
 Umbraco/
+**/[Mm]edia/ 
+Our.Umbraco.Health.Web/uSync/ 
+**/[Aa]pp_[Pp]lugins/ 
+
 nuget.exe
 .vs/
 snapshots/
