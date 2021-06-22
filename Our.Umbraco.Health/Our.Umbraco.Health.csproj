@@ -244,8 +244,10 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uSync\ContentHandlerCheck.cs" />
     <Compile Include="uSync\ExportOnSaveCheck.cs" />
     <Compile Include="uSync\ImportAtStartupCheck.cs" />
+    <Compile Include="uSync\MediaHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

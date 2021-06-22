@@ -23,8 +23,22 @@
                 public const string XPath = "/uSync/BackOffice/ImportAtStartup";
             }
 
+            public static class ContentHandler
+            {
+                public const string Id = "95E30BB4-650D-4C87-BEFC-A6C2D28F414F";
+                public const string Name = "Content Handler";
+                public const string Description = "Check to make sure that the Content Handler is disabled";
+                public const string XPath = "/uSync/BackOffice/HandlerSets/Handlers/Handler[@Alias='contentHandler']/@Enabled";
 
+            }
 
+            public static class MediaHandler
+            {
+                public const string Id = "62E1AF4C-0CDF-4894-89EF-DC2A15CCCB20";
+                public const string Name = "Media Handler";
+                public const string Description = "Check to make sure that the Media Handler is disabled";
+                public const string XPath = "/uSync/BackOffice/HandlerSets/Handlers/Handler[@Alias='mediaHandler']/@Enabled";
+            }
         }
     }
 }
